@@ -87,7 +87,7 @@
     .logo-wrap {
         display: inline-block;
         padding: 15px 0;
-
+    
         &:focus,
         &:hover {
             text-decoration: none;
@@ -96,10 +96,18 @@
 
     .logo-img {
         display: inline-block;
-        @include size(64px, auto);
+        // @include size(64px, auto);
         max-width: 100%;
         max-height: 100%;
         vertical-align: middle;
+        text-transform: uppercase;
+        color: #17BED2;
+        margin-bottom: 0;
+        font-size: 18px;
+
+        & span {
+            font-size: 18px;
+        }
     }
 
     .logo-img-main {
